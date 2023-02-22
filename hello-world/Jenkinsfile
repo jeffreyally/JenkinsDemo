@@ -2,11 +2,11 @@ pipeline {
     agent any 
     stages {
         
-        stage 'Compile' {
+        stage 'Compile' 
             steps {
                 echo 'Compile the source code' 
             }
-        }
+        
         stage('Security Check') {
             steps {
                 echo 'Run the security check against the application' 
