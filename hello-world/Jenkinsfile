@@ -3,10 +3,10 @@ pipeline {
     stages {
         
         stage 'Compile' 
-            steps {
+            steps 
                 echo 'Compile the source code' 
-            }
-        
+            
+       
         stage('Security Check') {
             steps {
                 echo 'Run the security check against the application' 
